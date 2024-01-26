@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ExampleSite</title>
+    <title>Posts on Renan&#39;s Notes</title>
     <link>https://renan.thend03.com/posts/</link>
-    <description>Recent content in Posts on ExampleSite</description>
-    <image>
-      <title>ExampleSite</title>
-      <url>https://renan.thend03.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://renan.thend03.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <description>Recent content in Posts on Renan&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Thu, 25 Jan 2024 15:31:14 +0800</lastBuildDate>
     <atom:link href="https://renan.thend03.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
