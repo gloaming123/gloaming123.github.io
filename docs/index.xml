@@ -1,24 +1,328 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>ExampleSite</title>
-    <link>https://gloaming123.github.io/</link>
-    <description>Recent content on ExampleSite</description>
-    <image>
-      <title>ExampleSite</title>
-      <url>https://gloaming123.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://gloaming123.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
+    <title>Choi&#39;s Notes</title>
+    <link>https://smc.im/</link>
+    <description>Recent content on Choi&#39;s Notes</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2024 15:31:14 +0800</lastBuildDate>
-    <atom:link href="https://gloaming123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 17 Dec 2023 13:03:07 +0800</lastBuildDate><atom:link href="https://smc.im/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>https://gloaming123.github.io/posts/my-first-post/</link>
-      <pubDate>Thu, 25 Jan 2024 15:31:14 +0800</pubDate>
-      <guid>https://gloaming123.github.io/posts/my-first-post/</guid>
-      <description>你好啊！</description>
+      <title>🐼关于我</title>
+      <link>https://smc.im/about/</link>
+      <pubDate>Sun, 02 Feb 2020 16:23:32 +0800</pubDate>
+      
+      <guid>https://smc.im/about/</guid>
+      <description>概述 .Net Core 平台开发者，自媒体业余玩家，爱好剪辑音乐视频。 曾在两周内实现微信视频号从 0 粉涨到 2.1W 粉；播放量也从 0 涨到 3000W；点赞量超过 20W。</description>
     </item>
+    
+    <item>
+      <title>👫友链</title>
+      <link>https://smc.im/friend/</link>
+      <pubDate>Sat, 27 Aug 2022 14:24:32 +0800</pubDate>
+      
+      <guid>https://smc.im/friend/</guid>
+      <description>Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 Pseudoyu Pseudoyu 🤖如想交换友链，可以点此联系我~</description>
+    </item>
+    
+    <item>
+      <title>使用 Github Actions 自动部署 hugo 博客</title>
+      <link>https://smc.im/post/deploy-hugo-blog-with-github-actions/</link>
+      <pubDate>Sun, 17 Dec 2023 13:03:07 +0800</pubDate>
+      
+      <guid>https://smc.im/post/deploy-hugo-blog-with-github-actions/</guid>
+      <description>hugo 博客系统，大部分人应该都在使用，但是部署的方式，也不相同。Github Actions 这么好用的工具已经出来好几年了，但是一直都没尝试过。本次就简单记录</description>
+    </item>
+    
+    <item>
+      <title>Uninstall hasn&#39;t detected folder of JetBrains Rider installation</title>
+      <link>https://smc.im/post/uninstall-has-not-detected-folder-of-jetbrains-rider-installation/</link>
+      <pubDate>Mon, 07 Aug 2023 15:10:12 +0800</pubDate>
+      
+      <guid>https://smc.im/post/uninstall-has-not-detected-folder-of-jetbrains-rider-installation/</guid>
+      <description>今天在卸载 Rider 程序（运行 Uninstall.exe 程序）时，遇到找不到卸载程序的错误。 完整错误提示为：Uninstall hasn&#39;t detected folder of JetBrains Rider installation. Probably uninstall.exe was moved from the installation folder，看上</description>
+    </item>
+    
+    <item>
+      <title>git 中的 cherry-pick 命令的使用方法</title>
+      <link>https://smc.im/post/how-to-use-cherry-pick-command-in-git/</link>
+      <pubDate>Mon, 17 Jul 2023 14:51:56 +0800</pubDate>
+      
+      <guid>https://smc.im/post/how-to-use-cherry-pick-command-in-git/</guid>
+      <description>git cherry-pick 命令用于将一个或多个提交从一个分支复制到另一个分支。 假设现在有一个使用场景：我们只想要在一大堆提交中，将其中一个提交从某个分支复制到 master 分</description>
+    </item>
+    
+    <item>
+      <title>在 C# 中自定义动态对象比较器</title>
+      <link>https://smc.im/post/custom-dynamic-object-comparator-in-csharp/</link>
+      <pubDate>Fri, 09 Jun 2023 14:34:44 +0800</pubDate>
+      
+      <guid>https://smc.im/post/custom-dynamic-object-comparator-in-csharp/</guid>
+      <description>有时我们在对两个相同类型的对象进行比较、或对两个相同泛型的集合进行去重等操作时，需要对对象的某几个字段进行比较，而不是全部字段。这就需要用到</description>
+    </item>
+    
+    <item>
+      <title>根据 IQueryable 对象得到其查询的 SQL 语句和参数</title>
+      <link>https://smc.im/post/get-the-sql-statement-and-parameters-according-to-the-iqueryable-object/</link>
+      <pubDate>Mon, 29 May 2023 13:51:11 +0800</pubDate>
+      
+      <guid>https://smc.im/post/get-the-sql-statement-and-parameters-according-to-the-iqueryable-object/</guid>
+      <description>在使用 Entity Framework 作为 ORM 的时候，我们可能会根据得到的某个 IQueryable 查询对象，来“翻译”其最终的执行 SQL 以及传入的参数。经过一番拼凑，我得到了以下的方法，在此记</description>
+    </item>
+    
+    <item>
+      <title>使用 EF Core 查询数组参数与数据库中的数组字段是否有交集</title>
+      <link>https://smc.im/post/query-whether-array-parameter-intersect-with-array-field-in-the-database-in-ef-core/</link>
+      <pubDate>Sun, 12 Mar 2023 15:00:14 +0800</pubDate>
+      
+      <guid>https://smc.im/post/query-whether-array-parameter-intersect-with-array-field-in-the-database-in-ef-core/</guid>
+      <description>场景举例 表 student 中有一个数组类型的字段 hobbies，用来记录某个学生的所有业余爱好，此时想要查询业余爱好中包含羽毛球、篮球、吉他的所有学生，即</description>
+    </item>
+    
+    <item>
+      <title>GroupBy 方法和 ToLookup 方法之间的区别</title>
+      <link>https://smc.im/post/the-difference-between-method-groupby-and-tolookup/</link>
+      <pubDate>Tue, 31 Jan 2023 15:13:57 +0800</pubDate>
+      
+      <guid>https://smc.im/post/the-difference-between-method-groupby-and-tolookup/</guid>
+      <description>相同之处 C# 中的 GroupBy 方法，大家一般都知道是用来给数据集合做分组的，至于 ToLookup 方法，我本人用的比较少，估计很多人也不清楚是什么作用，其实它也可以对集合</description>
+    </item>
+    
+    <item>
+      <title>在 .net 6 中重复读取请求参数 body</title>
+      <link>https://smc.im/post/repeated-reading-of-request-parameter-body-in-dotnet6/</link>
+      <pubDate>Tue, 06 Dec 2022 14:37:16 +0800</pubDate>
+      
+      <guid>https://smc.im/post/repeated-reading-of-request-parameter-body-in-dotnet6/</guid>
+      <description>一句话总结 一般情况下，HttpContext.Request.Body 流对象不允许被重复读取，这是因为该流对象的 Position 是不允许进行修改操作的，一</description>
+    </item>
+    
+    <item>
+      <title>在小米手机上使用 Google Voice 时提示“加载对话时出错，请重试”</title>
+      <link>https://smc.im/post/google-voice-prompts-error-loading-conversation-on-xiaomi-phone/</link>
+      <pubDate>Wed, 16 Nov 2022 20:37:15 +0800</pubDate>
+      
+      <guid>https://smc.im/post/google-voice-prompts-error-loading-conversation-on-xiaomi-phone/</guid>
+      <description>由来 最近想注册一个 Google Voice 号码，网上搜索加上在群里咨询后，发现大家都说现在个人注册 GV 号很难放号了，索性今天花钱买了一个，人民币 45 元。用途就不说明</description>
+    </item>
+    
+    <item>
+      <title>在 Asp.Net Core WebApi 中全局捕获异常</title>
+      <link>https://smc.im/post/catching-exceptions-globally-in-dotnetcore-webapi/</link>
+      <pubDate>Tue, 15 Nov 2022 21:54:08 +0800</pubDate>
+      
+      <guid>https://smc.im/post/catching-exceptions-globally-in-dotnetcore-webapi/</guid>
+      <description>为什么需要写日志 不管是写接口，还是写 MVC 程序，我们都必须对程序中的每个异常做记录，这样才能知道哪里发生了错误，以便更好地改进代码。拿 Asp.Net Core WebApi 接口</description>
+    </item>
+    
+    <item>
+      <title>Asp.Net Core WebApi 接口入参默认值</title>
+      <link>https://smc.im/post/default-value-of-parameters-in-dotnetcore-webapi/</link>
+      <pubDate>Wed, 09 Nov 2022 20:13:15 +0800</pubDate>
+      
+      <guid>https://smc.im/post/default-value-of-parameters-in-dotnetcore-webapi/</guid>
+      <description>说明 有时候我们在设计一个 api 的时候，希望能给它设置一个默认值，在调用方没有给该参数传值的时候使用该默认值，最常见的例子就是获取数据列表接口，有</description>
+    </item>
+    
+    <item>
+      <title>Asp.Net Core WebApi 中多次读取请求数据</title>
+      <link>https://smc.im/post/read-request-data-multiple-times-in-dotnetcore-webapi/</link>
+      <pubDate>Sun, 09 Oct 2022 19:57:12 +0800</pubDate>
+      
+      <guid>https://smc.im/post/read-request-data-multiple-times-in-dotnetcore-webapi/</guid>
+      <description>说明 有时候我们在处理接口的业务之前，可能需要对请求数据进行预处理，或者在业务处理之后再次统一处理请求数据，该场景常见于 AOP 编程，比如 .net core 中的 f</description>
+    </item>
+    
+    <item>
+      <title>如何在 PostgreSQL 中查询作为索引的字段</title>
+      <link>https://smc.im/post/how-to-query-the-fields-used-as-indexes/</link>
+      <pubDate>Fri, 26 Aug 2022 20:56:34 +0800</pubDate>
+      
+      <guid>https://smc.im/post/how-to-query-the-fields-used-as-indexes/</guid>
+      <description>需求 公司业务上有一个需求，在页面上选择两张表中的各一个字段，将二者建立业务上的外键关系，前提是需要两者都是索引字段，否则会影响后续的查询效率</description>
+    </item>
+    
+    <item>
+      <title>解决 hugo 中关于 integrity 的错误</title>
+      <link>https://smc.im/post/resolve-integrity-error-in-hugo/</link>
+      <pubDate>Fri, 26 Aug 2022 00:04:05 +0800</pubDate>
+      
+      <guid>https://smc.im/post/resolve-integrity-error-in-hugo/</guid>
+      <description>错误描述 在 Github Pages 上部署 Hugo 博客后，网站样式丢失，打开浏览器 F12 控制台可以发现错误：Failed to find a valid digest in the &#39;integrity&#39; attribute for resource &amp;quot;xxx.css&amp;quot;, The resource has been blocked.。 解</description>
+    </item>
+    
+    <item>
+      <title>在 .net core 中实现下载文件的接口</title>
+      <link>https://smc.im/post/a-download-file-api-in-aspnetcore/</link>
+      <pubDate>Mon, 22 Aug 2022 20:45:05 +0800</pubDate>
+      
+      <guid>https://smc.im/post/a-download-file-api-in-aspnetcore/</guid>
+      <description>缘起 今天写个下载文件的接口，可能对很多人来说很简单，但是我却遇到了这样那样的错误，这里记录一下。 Controller 层的返回类型 在 Asp.net core（现在叫 .NET 6）中，</description>
+    </item>
+    
+    <item>
+      <title>烈日下的半天骑行</title>
+      <link>https://smc.im/post/half-day-ride-in-the-hot-sun/</link>
+      <pubDate>Sun, 21 Aug 2022 17:25:03 +0800</pubDate>
+      
+      <guid>https://smc.im/post/half-day-ride-in-the-hot-sun/</guid>
+      <description>好久没骑自行车 最近一次骑自行车在城市里瞎转悠，还是在 2021 年的杭州。那个时候，一到周末，我总喜欢扫一辆共享单车，来一场“说走就走的旅行”，漫无目</description>
+    </item>
+    
+    <item>
+      <title>从节日礼物窥探当前处境变化</title>
+      <link>https://smc.im/post/a-glimpse-of-current-changes-in-the-situation-from-holiday-gifts/</link>
+      <pubDate>Thu, 02 Jun 2022 20:38:03 +0800</pubDate>
+      
+      <guid>https://smc.im/post/a-glimpse-of-current-changes-in-the-situation-from-holiday-gifts/</guid>
+      <description>端午节快乐 明天就是端午节了，以前在老家的时候，爸妈已经去草地上割了一些艾草回来，插在门框上。现在自己住到了城里，不想丢到这个温馨的传统，就只</description>
+    </item>
+    
+    <item>
+      <title>你不是儿童，六一不再属于你</title>
+      <link>https://smc.im/post/i-am-not-a-child/</link>
+      <pubDate>Wed, 01 Jun 2022 18:22:33 +0800</pubDate>
+      
+      <guid>https://smc.im/post/i-am-not-a-child/</guid>
+      <description>今天是六一儿童节，我当然正常上班。中午听老婆说小外甥放假了，我在这时候突然有点恍惚：我们小时候也是很期待这一天的假期啊！那得是多遥远的年代了</description>
+    </item>
+    
+    <item>
+      <title>两次安装空调所总结的小经验</title>
+      <link>https://smc.im/post/air-conditioning-installation-experience/</link>
+      <pubDate>Tue, 31 May 2022 20:27:54 +0800</pubDate>
+      
+      <guid>https://smc.im/post/air-conditioning-installation-experience/</guid>
+      <description>今天家里装空调，老婆一个人在家看着。 空调的型号是 美的旋耀 KFR-35GW/N8MXA1，拼多多上面买的，使用优惠券后的价格是 2653 元，同型号在京</description>
+    </item>
+    
+    <item>
+      <title>我的第一篇 hugo 博客</title>
+      <link>https://smc.im/post/first-hugo-post/</link>
+      <pubDate>Sat, 28 May 2022 09:14:49 +0800</pubDate>
+      
+      <guid>https://smc.im/post/first-hugo-post/</guid>
+      <description>这是我第一次使用 hugo 搭建博客，这也是我第一个 hugo 博客的第一篇文章。 前两天，我刚装了人生第一台台式机，配置如下： 配置 参数 价格 处理器 AMD R5-5600 原盒 / 主板 微</description>
+    </item>
+    
+    <item>
+      <title>使用 JavaScript 下载文件</title>
+      <link>https://smc.im/post/download-file-using-javascript/</link>
+      <pubDate>Thu, 06 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/download-file-using-javascript/</guid>
+      <description>&lt;p&gt;项目上遇到 Excel 导出的功能，应该是个烂大街的需求了，但是自己水平有限，还是捣鼓了一段时间。后端实现都容易，最大的坑反而是文件下载。这里记录一下方便回忆。&lt;/p&gt;
+&lt;p&gt;大家都知道，下载文件最简单的办法，可能就是在前台添加一个 &lt;code&gt;a&lt;/code&gt; 标签，然后给其写上 &lt;code&gt;href&lt;/code&gt; 属性，指向文件的路径即可，但是个人觉得这种方式体验不太友好。于是我就选择使用 &lt;code&gt;ajax&lt;/code&gt; 请求后台接口来下载，这个时候问题来了 —— 这种方法无法触发浏览器打开保存文件的对话框，所以就没法下载文件。关键是后台方法全部走完，没有异常和报错，前台也平静如水，心里一百个纳闷。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Entity Framework 学习笔记</title>
+      <link>https://smc.im/post/notes-of-learning-entity-framework/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/notes-of-learning-entity-framework/</guid>
+      <description>前言 做 .NET 项目时需要用到微软自家的 ORM 框架 Entity Framework，由于之前学识比较浅，没有接触过 Entity Framework，趁着这个机会，赶紧 Google 了一下相</description>
+    </item>
+    
+    <item>
+      <title>使用 Java 实现 HashMap</title>
+      <link>https://smc.im/post/implement-hashmap-in-java/</link>
+      <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/implement-hashmap-in-java/</guid>
+      <description>HashMap 基本介绍 HashMap 是 Map 接口中最为常用的一个实现类，通过名字我们可以看出，它与 hash 算法密不可分。它的内部用来存放键值对。HashMap 的底层实现是数组</description>
+    </item>
+    
+    <item>
+      <title>使用 Java 实现 ArrayList</title>
+      <link>https://smc.im/post/implement-arraylist-in-java/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/implement-arraylist-in-java/</guid>
+      <description>ArrayList 基本介绍 ArrayList 是 List 接口中最为常用的一个实现类，从名字可以看出，它与数组有着千丝万缕的关系。实际上，ArrayList 就是在底层维护了一个数组，</description>
+    </item>
+    
+    <item>
+      <title>舟山行</title>
+      <link>https://smc.im/post/travel-in-zhoushan/</link>
+      <pubDate>Fri, 20 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/travel-in-zhoushan/</guid>
+      <description>多图预警！！！ 清明假期，和几位要好的朋友去舟山玩了几天。不是游记，不是攻略，单纯是简单记录一下。 初高中一别，大家的方向、城市、环境、经历都不</description>
+    </item>
+    
+    <item>
+      <title>使用 Java 实现单向链表</title>
+      <link>https://smc.im/post/implement-single-linkedlist-in-java/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/implement-single-linkedlist-in-java/</guid>
+      <description>单向链表基本介绍 链表（Linked List）是一种常见的基础数据结构，是一种线性表，但是并不会按线性的顺序存储数据，实际上它是由节点（Nod</description>
+    </item>
+    
+    <item>
+      <title>根据 IP 判断访问页面的用户是否来自内网</title>
+      <link>https://smc.im/post/determine-whether-the-user-ip-is-from-the-intranet/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/determine-whether-the-user-ip-is-from-the-intranet/</guid>
+      <description>前言 最近做项目时遇到一个需求：判断当前访问的用户，和服务器是否在同一个内网中，然后进行不同的跳转。说白了，就是先获取用户的 IP ，然后判断其是否</description>
+    </item>
+    
+    <item>
+      <title>利用 Cloudflare 进行免费的域名转发</title>
+      <link>https://smc.im/post/cloudflare-for-free-domain-forwarding/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/cloudflare-for-free-domain-forwarding/</guid>
+      <description>前言 人人都能接触互联网的时代，估计你手上也有闲置的域名，为了不浪费，可以用来干一些其他的小事情，比如将自己的域名跳转到微博或者 QQ 空间等等。这</description>
+    </item>
+    
+    <item>
+      <title>Markdown 完整版语法手册</title>
+      <link>https://smc.im/post/all-grammars-of-markdown/</link>
+      <pubDate>Sun, 23 Jul 2017 19:15:33 +0800</pubDate>
+      
+      <guid>https://smc.im/post/all-grammars-of-markdown/</guid>
+      <description>Markdown 简介 Markdown 是一种轻量级标记语言，创始人为 John Gruber 。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的 XHTML（或者 HTML ）文档。这种语言吸</description>
+    </item>
+    
+    <item>
+      <title>Shadowsocks 一键安装脚本（四合一）</title>
+      <link>https://smc.im/post/shadowsocks-installation-scripts/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/shadowsocks-installation-scripts/</guid>
+      <description>前言 不说你也懂，还是不说了。 本脚本适用环境 系统支持：CentOS 6+，Debian 7+，Ubuntu 12+ 内存要求：≥128M 日期：2017 年 5</description>
+    </item>
+    
+    <item>
+      <title>OpenCV 的安装与 Visual Studio 环境的配置</title>
+      <link>https://smc.im/post/opencv-installation-visualstudio-configuration/</link>
+      <pubDate>Sat, 06 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/opencv-installation-visualstudio-configuration/</guid>
+      <description>前言 大学四年很快就结束了，前面玩了三年六个月，最后六个月，怎么说也得学点点点点点东西吧&amp;hellip; 额，我说的就是毕业设计（笑）。 很幸运，</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>https://smc.im/post/hello-world/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/post/hello-world/</guid>
+      <description>前言 想搭建一个属于自己的博客已经很久了。 记得最早的时候，emmmm&amp;hellip;我都已经上初中了&amp;hellip;虽然起步很晚，但由于对网络</description>
+    </item>
+    
+    <item>
+      <title>归档</title>
+      <link>https://smc.im/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://smc.im/archives/</guid>
+      <description>记录生活，记录工作</description>
+    </item>
+    
+    
   </channel>
 </rss>
